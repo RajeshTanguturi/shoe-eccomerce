@@ -1,0 +1,18 @@
+#navbar {
+    background-color: bisque;
+    margin: 1rem 1.25rem;
+    padding:0.1rem;
+    position:fixed;
+    margin-bottom: 5rem;
+    z-index:10;
+  ul {
+    list-style: none;
+    display: flex;
+    padding:auto;
+    > li {
+      color: aqua;
+      margin-right: 1rem;
+      text-decoration: none;
+    }
+  }
+}
